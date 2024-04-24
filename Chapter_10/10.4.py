@@ -46,7 +46,8 @@ def input_info(list, i):
 
 
 def output_info(employee):
-    print('\tИмя: {}\n\tИдентификационный номер: {}\n\tОтдел: {}\n\tДолжность: {}\n'.format(employee.name, employee.id, employee.dept, employee.post))
+    print('\tИмя: {}\n\tИдентификационный номер: {}\n\tОтдел: {}\n\tДолжность: {}\n'.
+          format(employee.name, employee.id, employee.dept, employee.post))
     
 
 main()
